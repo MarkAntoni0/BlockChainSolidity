@@ -40,7 +40,7 @@ contract SimpleStorage{
             bytes32 nextCar = "Mercedes";
             */
 
-        uint favoriteNumber; //Implicitly assigning 0 value (Solidity defaults) and implicitly private
+        uint favoriteNumber; //Implicitly assigning 0 value (Solidity defaults) and implicitly internal
         
     function store (uint256 _favoriteNumber) public { 
         favoriteNumber = _favoriteNumber;
