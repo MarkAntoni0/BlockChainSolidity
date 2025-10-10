@@ -40,9 +40,12 @@ contract SimpleStorage{
             bytes32 nextCar = "Mercedes";
             */
 
-        uint favoriteNumber; //Implicitly assigning 0 value (Solidity defaults)
+        uint favoriteNumber; //Implicitly assigning 0 value (Solidity defaults) and implicitly private
         
-    function store (uint256 _favoriteNumber) public {
+    function store (uint256 _favoriteNumber) public { 
         favoriteNumber = _favoriteNumber;
     }
+
+    //MARK: Deploy this contract [Local VM] and interact with it many times to see how the gas is consumed from your balance
+
 }
