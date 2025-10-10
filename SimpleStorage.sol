@@ -1,4 +1,5 @@
-//Solidity Basics and Data Types
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Solidity Basics and Data Types <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 //MARK: Always start your code with the following line, this is the license of your code (optional, and some compilers would give a warning if not written)
 
 // SPDX-License-Identifier: MIT
