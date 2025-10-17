@@ -46,7 +46,7 @@ contract simpleStorage{
             //section1.push(newPerson);
         
         //MARK: Deploy this contract and interact with the array of structs and add many objects to it 
-
+        //MARK: Deploy this to Sepolia using your metamask injection
     }
     
 
