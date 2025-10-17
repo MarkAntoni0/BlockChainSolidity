@@ -49,5 +49,6 @@ contract SimpleStorage{
     }
 
     //MARK: Deploy this contract [Local VM] and interact with it many times to see how the gas is consumed from your balance
+    //MARK: Deploy this contract to Sepolia and make sure that you can see your contract creation transaction on Etherscan
 
 }
