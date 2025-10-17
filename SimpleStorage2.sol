@@ -46,5 +46,6 @@ contract SimpleStorage{
         // Note that calling a view function is chargable if you are calling it inside a gas consuming function
 
         //MARK: Let's try and see the gas consumption difference with the view function being called inside store function
+        //MARK: Call retrieve in a state changing function and see the gas difference.
 
 }
