@@ -14,6 +14,8 @@ contract simpleStorage{
     //MARK: let's create an object of our struct called "mark"
     People public mark = People({name: "mark", favoriteNumber: 18});
     //MARK: Passing the parameters of the object this way allows us to shuffle the order of the variables inside the struct 
+    //People public mark = People("Mark",18);
+    //MARK: This is the normal way of creating an object of the contruct
 
     //MARK: What if we have many records and we want to create a list/array of them 
     //MARK: Let's create an array of the struct 
