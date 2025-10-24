@@ -21,7 +21,15 @@ contract simpleStorage{
     //MARK: Let's create an array of the struct 
     People[] public section1; //MARK: Note that this is a dynamic size array
     //People[5] public section2; //MARK: Note that this is a fixed-size array
-    
+
+    //MARK: It's important to note that solidity allows array mods through functions only and no direct manipulation is allowed
+    //MARK: Note this array and it's modifications: 
+    /*
+        int[5] public models;
+        function addModel (int _model) public {
+            models[1] = _model;
+        }
+    */
     //MARK: Deploy now and see how the buttons differ in deployment
 
     //lets create a function to fill this array for us 
