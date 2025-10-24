@@ -30,6 +30,14 @@ contract simpleStorage{
             models[1] = _model;
         }
     */
+
+    //MARK: Dealing with dynamic sized array is different, note the following code 
+    /*
+        int[] public models;
+        function addModel (int _model) public {
+            models.push(_model); 
+        }
+    */
     //MARK: Deploy now and see how the buttons differ in deployment
 
     //lets create a function to fill this array for us 
