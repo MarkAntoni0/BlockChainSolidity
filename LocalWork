@@ -18,6 +18,7 @@
 	npm i web3 
 	npm i @metamask/detect-provider
 	npm i ipfs
+	npm i ipfs-http-client
 	npm i npm install bootstrap@v5.3.8
 	npm audit fix --force
 	
