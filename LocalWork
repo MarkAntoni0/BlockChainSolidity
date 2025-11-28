@@ -1,0 +1,38 @@
+1- Install VScode 
+2- Install NodeJS
+3- Install React JS
+	npx create-react-app ipfs-dapp
+4- Install Truffle 
+5- Install Ganache 
+6- Init Truffle in react project 
+	truffle init 
+7- Configure truffle to match Ganache in react project 
+8- Start your project 
+	npm start
+9- Delete the build directory 
+10-Create new build directory in the public folder of React 
+11-Change the configuration of truffle 
+	contracts_build_directory:"./public/abis"
+12-App.js contains your front end
+13-Install node js packages 
+	npm i web3 
+	npm i @metamask/detect-provider
+	npm i ipfs
+	npm i npm install bootstrap@v5.3.8
+	npm audit fix --force
+	
+	(Use in case of error with react scripts)
+	npm install react-scripts --save
+	npm install react-scripts@latest 
+14-Import bootstrap to index.js 
+	import 'bootstrap'
+15-Design your front end 
+	from bootstrap docs bring the components 
+	change all class to className
+16-Write the cloud smart contract under contracts 
+17-Write the Cloud migration code 
+18-run truffle migrate
+	truffle migrate --reset 
+19-Move to Solidity 0.8.0 for more stable execution
+
+	
